@@ -22,3 +22,8 @@ React frontend for a task manager. Key views: task list, task creation form, tas
 - Pass dueDate as null (not empty string) when not set — api/tasks.js omits it from body if falsy
 - TaskItem: isOverdue = dueDate && !completed && new Date(dueDate) < new Date()
 - Overdue tasks get red .due-date.overdue styling
+## ABANDONED: TODO-20260530184200 — 2026-05-30
+All artifacts removed (stories folder, branches, worktrees). Any prior notes
+referencing TODO-20260530184200 spec.md / plan.md / tasks.md are now stale — those
+files no longer exist. If this ticket is restarted, treat it as a fresh start.
+

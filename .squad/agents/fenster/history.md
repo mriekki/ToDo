@@ -28,3 +28,8 @@ Node.js backend providing a REST API for task CRUD. Endpoints consumed by McManu
 - dueDate: optional field, null if not set. ISO date string if set.
 - Validated with isNaN(new Date(dueDate).getTime()) in POST and PUT routes
 - PUT allows dueDate: null to clear the due date
+## ABANDONED: TODO-20260530184200 — 2026-05-30
+All artifacts removed (stories folder, branches, worktrees). Any prior notes
+referencing TODO-20260530184200 spec.md / plan.md / tasks.md are now stale — those
+files no longer exist. If this ticket is restarted, treat it as a fresh start.
+

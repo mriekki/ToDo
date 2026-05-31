@@ -29,3 +29,8 @@ Testing a task manager: React UI + Node.js API. Key flows to cover: create task,
 - process.env vars survive jest.resetModules() (they're on process, not in module registry)
 - dueDate backend tests: POST with valid date, POST without date (null), POST with invalid date (400), PUT update, PUT clear with null
 - dueDate frontend tests: TaskForm passes dueDate to onSubmit, TaskItem shows/hides due date based on dueDate field
+## ABANDONED: TODO-20260530184200 — 2026-05-30
+All artifacts removed (stories folder, branches, worktrees). Any prior notes
+referencing TODO-20260530184200 spec.md / plan.md / tasks.md are now stale — those
+files no longer exist. If this ticket is restarted, treat it as a fresh start.
+
