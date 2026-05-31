@@ -1,0 +1,16 @@
+node_modules/
+.env
+coverage/
+tasks.db
+tasks.db-shm
+tasks.db-wal
+tasks.json
+custom-ca-bundle.pem
+
+# Squad: ignore runtime state (logs, inbox, sessions)
+.squad/orchestration-log/
+.squad/log/
+.squad/decisions/inbox/
+.squad/sessions/
+# Squad: SubSquad activation file (local to this machine)
+.squad-workstream
